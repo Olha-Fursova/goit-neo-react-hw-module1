@@ -1,0 +1,31 @@
+table {
+  min-width: 498px;
+  border: 2px solid #000000;
+  border-collapse: collapse;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.table-header {
+  background-color: #242424;
+  color: white;
+}
+
+th,
+td {
+  border: 2px solid #000000;
+}
+
+.table-row {
+  border: 2px solid #000000;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6e6; /* сірі смужки через рядок */
+}
+
+td:first-child {
+  text-transform: capitalize;
+}
