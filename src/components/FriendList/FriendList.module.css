@@ -21,27 +21,3 @@
   min-width: 90px;
   padding: 12px;
 }
-
-.friend-small-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.friend-name {
-  font-weight: 600;
-  padding-top: 12px;
-}
-
-.friend-status {
-  font-size: 14px;
-  letter-spacing: 0.04em;
-}
-
-.friend-status.online {
-  color: green;
-}
-
-.friend-status.offline {
-  color: red;
-}
